@@ -15,7 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomepageRender />} />
-          <Route path="/Moore-Real-Estate" element={<HomepageRender />} />
+          <Route path="/Moore2.0" element={<HomepageRender />} />
           <Route path="/property/:id" element={<PropertyOfTheDay />} />
           <Route path="/agent/:name" element={<AgentProfile />} />
           <Route path="/contact" element={<ContactFormPage />} />
