@@ -79,7 +79,7 @@ const Header = () => {
                 Properties
               </a>
             </li>
-
+{/* start working on the peroperties */}
             <li>
               <a href="#">News</a>
             </li>
