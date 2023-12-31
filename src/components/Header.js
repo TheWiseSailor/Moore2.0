@@ -79,7 +79,7 @@ const Header = () => {
                 Properties
               </a>
             </li>
-{/* start working on the peroperties */}
+{/* start working on the peroperty renderings and get it to where it shows a similar layout to all the other realestate websites outt here and provitde a simple google maps api... if I can find one */}
             <li>
               <a href="#">News</a>
             </li>
