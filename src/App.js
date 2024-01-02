@@ -7,7 +7,7 @@ import HomepageRender from "./components/HomepageRender";
 import ContactFormPage from "./components/ContactPageRender/ContactFormPage";
 import AgentProfile from "./components/Agents/AgentProfile";
 import PropertyOfTheDay from "./components/Properties/PropertyOfTheDay";
-
+import Properties from "./components/Properties/Properties";
 function App() {
   return (
     <div className="app-container">
@@ -17,8 +17,10 @@ function App() {
           <Route path="/" element={<HomepageRender />} />
           <Route path="/Moore2.0" element={<HomepageRender />} />
           <Route path="/property/:id" element={<PropertyOfTheDay />} />
+          <Route path="/properties" element={<Properties />} />
           <Route path="/agent/:name" element={<AgentProfile />} />
           <Route path="/contact" element={<ContactFormPage />} />
+          
         </Routes>
         <Footer />
       </Router>

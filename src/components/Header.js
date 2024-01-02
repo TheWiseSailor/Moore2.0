@@ -70,13 +70,18 @@ const Header = () => {
           <AOSInitializer />
           <ul id="nav-menu" data-aos="fade-down" data-aos-duration="3000">
             <li>
+
+
               <a
-                href="http://www.google.com"
+               
                 target="_blank"
                 data-aos="fade-down"
                 data-aos-duration="1000"
               >
-                Properties
+
+  <Link to="/properties">Properties</Link>
+
+
               </a>
             </li>
 {/* start working on the peroperty renderings and get it to where it shows a similar layout to all the other realestate websites outt here and provitde a simple google maps api... if I can find one */}

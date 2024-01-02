@@ -36,6 +36,7 @@ const PropertyOfTheDay = () => {
       price: "$700,000 / $7-14k Month",
       details: "2 beds / 3 baths / 2000 sqft",
       address: "Charleston, SC",
+      agent: "Ken Lowell",
     },
 
     // populate the rest of the properties with new images
@@ -46,6 +47,7 @@ const PropertyOfTheDay = () => {
       price: "$600,000 / $6-12k Month",
       details: "3 beds / 2.5 baths / 1800 sqft",
       address: "Wilmington, NC",
+      agent: "Zach Holland",
     },
     {
       id: 4,
@@ -53,6 +55,7 @@ const PropertyOfTheDay = () => {
       price: "$800,000 / $8-16k Month",
       details: "5 beds / 4 baths / 2500 sqft",
       address: "Wrightsville, NC",
+      agent: "Anna Mae",
     },
   ];
 
