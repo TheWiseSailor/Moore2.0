@@ -1,9 +1,9 @@
 // src/components/Properties/Properties.js
 import React from "react";
-
+import "./Properties.css";
 const Properties = () => {
   return (
-    <div>
+    <div className="mainpropertycontainer">
 
       <h2>Properties Page</h2>
 
