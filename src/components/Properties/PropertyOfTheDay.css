@@ -19,14 +19,16 @@
 .PropertyDetailsTitle {
   font-size: 26px;
   color: #f69314;
+  margin-top: -15px;
 }
 .PropertyDetails {
   font-size: 28px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-  padding: 15px;
-  background-color: #fff;
+
+
+  
   border-radius: 30px;
-  min-height: 400px;
+  min-height: 300px !important;
+
 }
 
 .DetailsAndForm {
