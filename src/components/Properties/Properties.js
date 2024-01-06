@@ -5,7 +5,7 @@ const Properties = () => {
   return (
     <div className="mainpropertycontainer">
 
-      <h2>Properties Page</h2>
+      <h2>this will be a search bar</h2>
 
     </div>
   );
