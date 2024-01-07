@@ -1,45 +1,64 @@
-.mainpropertycontainer {
-  background-color: rgb(193, 218, 226);
-  height: 100vh;
-  text-align: center;
-  padding-top: 100px;
 
+/* src\components\Properties\PropertyOfTheDay.css */
+
+.PropertyOfTheDayBg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
-.search-container {
-  margin-top: 20px;
-  position: relative;
-  padding-bottom: 50px;
+.Carousel {
+  max-width: 600px;
+  margin-bottom: 20px;
 }
 
-input {
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 200px;
-  transition: width 0.3s ease-in-out;
+.PropertyImage {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
-button {
-  padding: 10px 15px;
-  font-size: 16px;
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+.DetailsAndForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-input:focus {
-  width: 300px;
+.PropertyDetails {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-button:hover {
-  background-color: #45a049;
+.DetailPropertyNameSize {
+  font-size: 1.2rem;
 }
 
+.PropertyDetailsTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.ContactForm {
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ContactFormTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
 
 /* start populating the page by adding a search bar with a drop down options of all the things a.. scratch that go for a minimalist approach for now as this is a fresh realestate company.
 but still make it viable enouhg to where people feel as if this is a polished website */
