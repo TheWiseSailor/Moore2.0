@@ -75,3 +75,4 @@ const Properties = () => {
 };
 
 export default Properties;
+//add back that search bar
