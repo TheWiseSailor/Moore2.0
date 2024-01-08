@@ -3,7 +3,11 @@ import React, { useState } from 'react';
 
 import { Link } from "react-router-dom";
 import "./Properties.css";
+// images are from pixabay.com
 import Property1 from "./PropertyListingImages/Property1.jpg";
+import Property2 from "./PropertyListingImages/Property2.jpg";
+import Property3 from "./PropertyListingImages/Property3.jpg";
+
 const Properties = () => {
 
   const otherProperties = [
@@ -16,14 +20,14 @@ const Properties = () => {
     },
     {
       id: 2,
-      image: "URL_TO_IMAGE_6",
+      image: Property2,
       price: "$550,000 / $5-10k Month",
       details: "2 beds / 2 baths / 1500 sqft",
       address: "456 Oak St, Wilmington, NC",
     },
     {
       id: 3,
-      image: "URL_TO_IMAGE_7",
+      image: Property3,
       price: "$1,500,000 / $15-25k Month",
       details: "6 beds / 5 baths / 4000 sqft",
       address: "789 Pine St, Wilmington, NC",
