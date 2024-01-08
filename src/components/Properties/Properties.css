@@ -4,13 +4,28 @@
   justify-content: space-between;
   background-color: rgb(193, 218, 226);
   text-align: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding-top: 50px;
+
 }
 
 .property-card-container {
   width: 20%; 
   margin-bottom: 20px;
   box-sizing: border-box;
+}
+.animated-search-bar {
+  width: 210px; 
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: width .3s ease-in-out;
+
+}
+
+.animated-search-bar:focus {
+  width: 300px; 
+  outline: none; 
 }
 
 @media (max-width: 768px) {
