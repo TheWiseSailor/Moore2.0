@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Moore2.0/static/css/main.62cf46b4.css",
-    "main.js": "/Moore2.0/static/js/main.ffe63bf7.js",
+    "main.css": "/Moore2.0/static/css/main.18ca8ee6.css",
+    "main.js": "/Moore2.0/static/js/main.587244e8.js",
     "static/js/787.1fcb410e.chunk.js": "/Moore2.0/static/js/787.1fcb410e.chunk.js",
     "static/media/Listing1Image4.jpg": "/Moore2.0/static/media/Listing1Image4.9dfd9132b77af0f310c3.jpg",
     "static/media/Listing1Image2.jpg": "/Moore2.0/static/media/Listing1Image2.67e0da51e7ee2e9efc8e.jpg",
+    "static/media/Property4.jpg": "/Moore2.0/static/media/Property4.5015f0ee09c067e8844e.jpg",
     "static/media/Listing1Image3.jpg": "/Moore2.0/static/media/Listing1Image3.db4e3de8a84e4cbf7740.jpg",
     "static/media/ContactBg.jpg": "/Moore2.0/static/media/ContactBg.707bf172ee3cf4c36b8d.jpg",
     "static/media/AnnaMae.png": "/Moore2.0/static/media/AnnaMae.d62b5cc5fcac18a7eb42.png",
@@ -14,17 +15,26 @@
     "static/media/About us.png": "/Moore2.0/static/media/About us.098c2e4fc2c041939b10.png",
     "static/media/ZachHolland.png": "/Moore2.0/static/media/ZachHolland.3c8db41de96ffbec8099.png",
     "static/media/Listing4.png": "/Moore2.0/static/media/Listing4.ecc5fb6a1d7a1d14ff20.png",
+    "static/media/Property9.jpg": "/Moore2.0/static/media/Property9.de7a2374eea76ff67b9a.jpg",
     "static/media/Listing3.png": "/Moore2.0/static/media/Listing3.e95c2acca92c1ca69ee4.png",
+    "static/media/Property5.jpg": "/Moore2.0/static/media/Property5.6eaaa13b1f709046be92.jpg",
+    "static/media/Property10.jpg": "/Moore2.0/static/media/Property10.3dae43bd7729cdabf106.jpg",
     "static/media/BottomAboutImage.png": "/Moore2.0/static/media/BottomAboutImage.84ab5c736289cfda8c8d.png",
+    "static/media/Property1.jpg": "/Moore2.0/static/media/Property1.8ac32d349bdd440d507f.jpg",
+    "static/media/Property7.jpg": "/Moore2.0/static/media/Property7.64f4d39ec706f71afc78.jpg",
+    "static/media/Property2.jpg": "/Moore2.0/static/media/Property2.32d67907f187d2767190.jpg",
+    "static/media/Property3.jpg": "/Moore2.0/static/media/Property3.5c5375e9e5ce7e793732.jpg",
+    "static/media/Property8.jpg": "/Moore2.0/static/media/Property8.90c61c53ac719f683ca7.jpg",
     "static/media/Listing2.png": "/Moore2.0/static/media/Listing2.9d9be4a09be31df79ec2.png",
+    "static/media/Property6.jpg": "/Moore2.0/static/media/Property6.81982369f2f280ce0604.jpg",
     "static/media/Listing1.png": "/Moore2.0/static/media/Listing1.6b03ffa043983bc80611.png",
     "index.html": "/Moore2.0/index.html",
-    "main.62cf46b4.css.map": "/Moore2.0/static/css/main.62cf46b4.css.map",
-    "main.ffe63bf7.js.map": "/Moore2.0/static/js/main.ffe63bf7.js.map",
+    "main.18ca8ee6.css.map": "/Moore2.0/static/css/main.18ca8ee6.css.map",
+    "main.587244e8.js.map": "/Moore2.0/static/js/main.587244e8.js.map",
     "787.1fcb410e.chunk.js.map": "/Moore2.0/static/js/787.1fcb410e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62cf46b4.css",
-    "static/js/main.ffe63bf7.js"
+    "static/css/main.18ca8ee6.css",
+    "static/js/main.587244e8.js"
   ]
 }
