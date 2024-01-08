@@ -3,10 +3,17 @@ import React, { useState } from 'react';
 
 import { Link } from "react-router-dom";
 import "./Properties.css";
-// images are from pixabay.com
+// images are from pixabay.com / unsplash.com
 import Property1 from "./PropertyListingImages/Property1.jpg";
 import Property2 from "./PropertyListingImages/Property2.jpg";
 import Property3 from "./PropertyListingImages/Property3.jpg";
+import Property4 from "./PropertyListingImages/Property4.jpg";
+import Property5 from "./PropertyListingImages/Property5.jpg";
+import Property6 from "./PropertyListingImages/Property6.jpg";
+import Property7 from "./PropertyListingImages/Property7.jpg";
+import Property8 from "./PropertyListingImages/Property8.jpg";
+import Property9 from "./PropertyListingImages/Property9.jpg";
+import Property10 from "./PropertyListingImages/Property10.jpg";
 
 const Properties = () => {
 
@@ -34,49 +41,49 @@ const Properties = () => {
     },
     {
       id: 4,
-      image: "URL_TO_IMAGE_8",
+      image: Property4,
       price: "$1,100,000 / $11-18k Month",
       details: "5 beds / 4.5 baths / 3500 sqft",
       address: "101 Maple St, Wilmington, NC",
     },
     {
       id: 5,
-      image: "URL_TO_IMAGE_9",
+      image: Property5,
       price: "$750,000 / $7-12k Month",
       details: "3 beds / 2.5 baths / 2300 sqft",
       address: "202 Elm St, Wilmington, NC",
     },
     {
       id: 6,
-      image: "URL_TO_IMAGE_10",
+      image: Property6,
       price: "$620,000 / $6-11k Month",
       details: "4 beds / 3 baths / 2600 sqft",
       address: "303 Birch St, Wilmington, NC",
     },
     {
       id: 7,
-      image: "URL_TO_IMAGE_11",
-      price: "$890,000 / $8-14k Month",
+      image: Property7,
+       price: "$890,000 / $8-14k Month",
       details: "5 beds / 4 baths / 3200 sqft",
       address: "404 Cedar St, Wilmington, NC",
     },
     {
       id: 8,
-      image: "URL_TO_IMAGE_12",
+      image: Property8,
       price: "$1,200,000 / $12-20k Month",
       details: "6 beds / 5.5 baths / 4000 sqft",
       address: "505 Walnut St, Wilmington, NC",
     },
     {
       id: 9,
-      image: "URL_TO_IMAGE_13",
-      price: "$580,000 / $5-9k Month",
+      image: Property9,     
+       price: "$580,000 / $5-9k Month",
       details: "3 beds / 2 baths / 1800 sqft",
       address: "606 Pineapple St, Wilmington, NC",
     },
     {
       id: 10,
-      image: "URL_TO_IMAGE_14",
+      image: Property10, 
       price: "$950,000 / $9-15k Month",
       details: "4 beds / 3.5 baths / 3400 sqft",
       address: "707 Orange St, Wilmington, NC",

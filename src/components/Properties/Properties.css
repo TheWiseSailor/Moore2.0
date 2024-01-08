@@ -14,12 +14,11 @@ padding-left: 50px;
 .PropertyListingImage {
 
   max-width: 350px;
-  max-height: 350px;
+  max-height: 230px;
   width: 100%;
-  height: auto; 
   border-top-left-radius: 30px; 
   border-top-right-radius: 30px; 
-
+  object-fit: cover; 
   margin-bottom: 30px;
 }
 .property-card-container {
