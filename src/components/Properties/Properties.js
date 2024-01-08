@@ -3,13 +3,13 @@ import React, { useState } from 'react';
 
 import { Link } from "react-router-dom";
 import "./Properties.css";
-
+import Property1 from "./PropertyListingImages/Property1.jpg";
 const Properties = () => {
 
   const otherProperties = [
     {
       id: 1,
-      image: "URL_TO_IMAGE_5",
+      image: Property1,
       price: "$950,000 / $9-15k Month",
       details: "4 beds / 3 baths / 2800 sqft",
       address: "123 Main St, Wilmington, NC",
