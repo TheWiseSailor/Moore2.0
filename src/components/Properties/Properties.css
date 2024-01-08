@@ -31,6 +31,7 @@ padding-left: 50px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   height: 430px; 
 }
+
 .animated-search-bar {
   width: 210px; 
   padding: 10px;
@@ -48,6 +49,9 @@ padding-left: 50px;
 @media (max-width: 768px) {
   .property-card-container {
     width: 100%; 
+  }
+  .green-button{
+    max-width:150px ;
   }
 }
 
