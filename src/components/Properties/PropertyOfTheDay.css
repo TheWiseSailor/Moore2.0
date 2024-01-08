@@ -1,5 +1,6 @@
 /* PropertyOfTheDay.module.css */
 
+/* General styles for the background */
 .PropertyOfTheDayBg {
   background-color: rgb(193, 218, 226);
   color: rgb(0, 0, 0);
@@ -12,31 +13,34 @@
   padding-top: 150px;
 }
 
+/* Styles for the property image */
 .PropertyImage {
   width: 700px;
   height: 400px;
 }
+
+/* Styles for the property details title */
 .PropertyDetailsTitle {
   font-size: 26px;
   color: #f69314;
   margin-top: -15px;
 }
+
+/* Styles for the main property details */
 .PropertyDetails {
   font-size: 28px;
-
-
-  
   border-radius: 30px;
   min-height: 300px !important;
-
 }
 
+/* Styles for the details and form section */
 .DetailsAndForm {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
+/* Styles for property details and contact form columns */
 .PropertyDetails,
 .ContactForm {
   width: 40%;
@@ -44,11 +48,13 @@
   margin: 20% auto;
 }
 
+/* Styles for property name size in details */
 .DetailPropertyNameSize {
   font-size: 1rem;
   line-height: 2.5;
 }
 
+/* Styles for the contact form */
 .ContactForm form {
   display: grid;
   gap: 10px;
@@ -59,13 +65,16 @@
   background-color: #fff;
   border-radius: 30px;
 }
+
 .ContactForm label {
   display: block;
   margin-bottom: 5px;
 }
+
 .ContactFormTitle {
   color: #f69314;
 }
+
 .ContactForm input,
 .ContactForm textarea {
   width: 100%;
@@ -106,11 +115,13 @@
     max-width: 300px;
     margin-left: 10px;
   }
+
   .ContactForm {
     margin-top: 30px;
     padding-bottom: 50px;
   }
 }
+
 @media (min-width: 1000px) {
   .PropertyDetails,
   .ContactForm {
@@ -118,8 +129,7 @@
   }
 }
 
-/* CAROUSEL */
-
+/* Styles for the carousel */
 .carousel-root {
   max-width: 700px;
 }
@@ -127,7 +137,6 @@
 .carousel .control-prev,
 .carousel .control-next {
   font-size: 24px;
-
   padding-top: 200px !important;
   background: none !important;
 }
@@ -135,9 +144,7 @@
 .carousel .control-prev {
   margin-left: 20px;
   border-radius: 50px;
-
   height: 25px;
-
   padding-top: 190px !important;
 }
 

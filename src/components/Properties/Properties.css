@@ -1,63 +1,22 @@
-
-/* src\components\Properties\PropertyOfTheDay.css */
-
-.PropertyOfTheDayBg {
+.PropertyListingOfTheDayBg {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(193, 218, 226);
+  text-align: center;
+  height: 100vh;
 }
 
-.Carousel {
-  max-width: 600px;
+.property-card-container {
+  width: 20%; 
   margin-bottom: 20px;
+  box-sizing: border-box;
 }
 
-.PropertyImage {
-  width: 100%;
-  max-height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-}
-
-.DetailsAndForm {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.PropertyDetails {
-  width: 100%;
-  max-width: 600px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.DetailPropertyNameSize {
-  font-size: 1.2rem;
-}
-
-.PropertyDetailsTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
-}
-
-.ContactForm {
-  width: 100%;
-  max-width: 600px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.ContactFormTitle {
-  font-size: 1.5rem;
-  font-weight: bold;
-  margin-bottom: 10px;
+@media (max-width: 768px) {
+  .property-card-container {
+    width: 100%; 
+  }
 }
 
 /* start populating the page by adding a search bar with a drop down options of all the things a.. scratch that go for a minimalist approach for now as this is a fresh realestate company.
