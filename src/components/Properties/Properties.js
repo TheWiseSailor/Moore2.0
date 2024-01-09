@@ -128,9 +128,9 @@ const Properties = () => {
           <p>{property.price}</p>
           <p>{property.details}</p>
           <p className="property-address">{property.address}</p>
-          <Link key={property.id} to={`/properties/${property.id}`}>
-            <button className="green-button">View!</button>
-          </Link>
+          <Link key={property.id} to={{ pathname: `/properties/${property.id}`, state: { property } }}>
+  <button className="green-button">View!</button>
+</Link>
         </div>
       </div>
     ))}

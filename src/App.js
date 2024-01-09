@@ -8,6 +8,11 @@ import ContactFormPage from "./components/ContactPageRender/ContactFormPage";
 import AgentProfile from "./components/Agents/AgentProfile";
 import PropertyOfTheDay from "./components/Properties/PropertyOfTheDay";
 import Properties from "./components/Properties/Properties";
+import ViewProperties from "./components/Properties/ViewProperties";
+
+
+
+
 function App() {
   return (
     <div className="app-container">
@@ -20,7 +25,6 @@ function App() {
           <Route path="/properties" element={<Properties />} />
           <Route path="/agent/:name" element={<AgentProfile />} />
           <Route path="/contact" element={<ContactFormPage />} />
-          
         </Routes>
         <Footer />
       </Router>
