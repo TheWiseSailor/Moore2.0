@@ -10,9 +10,6 @@ import PropertyOfTheDay from "./components/Properties/PropertyOfTheDay";
 import Properties from "./components/Properties/Properties";
 import ViewProperties from "./components/Properties/ViewProperties";
 
-
-
-
 function App() {
   return (
     <div className="app-container">
@@ -23,6 +20,8 @@ function App() {
           <Route path="/Moore2.0" element={<HomepageRender />} />
           <Route path="/property/:id" element={<PropertyOfTheDay />} />
           <Route path="/properties" element={<Properties />} />
+
+          <Route path="/properties/:id" element={<ViewProperties />} />
           <Route path="/agent/:name" element={<AgentProfile />} />
           <Route path="/contact" element={<ContactFormPage />} />
         </Routes>
