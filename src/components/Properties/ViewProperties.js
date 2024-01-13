@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import "./ViewProperties.css";
 import { Link } from "react-router-dom";
 
-// Import property images
+
 import Property1 from "./PropertyListingImages/Property1.jpg";
 import Property2 from "./PropertyListingImages/Property2.jpg";
 import Property3 from "./PropertyListingImages/Property3.jpg";
@@ -112,7 +112,6 @@ const ViewProperties = () => {
   if (!property) {
     return <div>Property not found</div>;
   }
-
   return (
     <div className="ViewPropertiesBg">
       <Carousel className="Carousel" showThumbs={false}>
@@ -139,11 +138,30 @@ const ViewProperties = () => {
             <p>Agent: {property.agent}</p>
           </div>
         </div>
-        <div className="BackButton">
-          <Link to="/properties">
-            <button className="green-button">Back to Listings</button>
-          </Link>
+        <div className="ContactForm ">
+          <form>
+            <div className="ContactFormTitle font-bold text-2xl">
+              Contact Your Agent!
+            </div>
+            <label htmlFor="name">Name:</label>
+            <input type="text" id="name" name="name" />
+
+            <label htmlFor="email">Your Email:</label>
+            <input type="email" id="email" name="email" />
+
+            <label htmlFor="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+
+            <input className="mb-6 mt-6 " type="submit" value="Submit" />
+          </form>
         </div>
+      </div>
+
+
+      <div className="BackButton">
+        <Link to="/properties">
+          <button className="green-button">Back to Listings</button>
+        </Link>
       </div>
     </div>
   );
