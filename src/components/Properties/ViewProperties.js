@@ -160,7 +160,7 @@ const ViewProperties = () => {
 
       <div className="BackButton">
         <Link to="/properties">
-          <button className="green-button">Back to Listings</button>
+          <button className="green-button mb-96">Back to Listings</button>
         </Link>
       </div>
     </div>
@@ -168,3 +168,5 @@ const ViewProperties = () => {
 };
 
 export default ViewProperties;
+
+//populate the images now
