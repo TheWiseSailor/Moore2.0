@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Moore2.0/static/css/main.18ca8ee6.css",
-    "main.js": "/Moore2.0/static/js/main.587244e8.js",
+    "main.css": "/Moore2.0/static/css/main.b6351930.css",
+    "main.js": "/Moore2.0/static/js/main.f357c204.js",
     "static/js/787.1fcb410e.chunk.js": "/Moore2.0/static/js/787.1fcb410e.chunk.js",
     "static/media/Listing1Image4.jpg": "/Moore2.0/static/media/Listing1Image4.9dfd9132b77af0f310c3.jpg",
     "static/media/Listing1Image2.jpg": "/Moore2.0/static/media/Listing1Image2.67e0da51e7ee2e9efc8e.jpg",
@@ -29,12 +29,12 @@
     "static/media/Property6.jpg": "/Moore2.0/static/media/Property6.81982369f2f280ce0604.jpg",
     "static/media/Listing1.png": "/Moore2.0/static/media/Listing1.6b03ffa043983bc80611.png",
     "index.html": "/Moore2.0/index.html",
-    "main.18ca8ee6.css.map": "/Moore2.0/static/css/main.18ca8ee6.css.map",
-    "main.587244e8.js.map": "/Moore2.0/static/js/main.587244e8.js.map",
+    "main.b6351930.css.map": "/Moore2.0/static/css/main.b6351930.css.map",
+    "main.f357c204.js.map": "/Moore2.0/static/js/main.f357c204.js.map",
     "787.1fcb410e.chunk.js.map": "/Moore2.0/static/js/787.1fcb410e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18ca8ee6.css",
-    "static/js/main.587244e8.js"
+    "static/css/main.b6351930.css",
+    "static/js/main.f357c204.js"
   ]
 }
