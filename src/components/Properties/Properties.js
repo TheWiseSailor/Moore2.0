@@ -93,48 +93,37 @@ const Properties = () => {
   const filteredProperties = otherProperties.filter(property =>
     property.address.toLowerCase().includes(searchInput.toLowerCase())
   );
+
   return (
     <div className="PropertyListingOfTheDayBg">
-    <h1
-      className="PropertyListingDetailsTitle"
-      data-aos="fade-down"
-      data-aos-duration="3000"
-    >
-          <input
-      type="text"
-      placeholder="Search Wilmington Properties..."
-      value={searchInput}
-      onChange={(e) => setSearchInput(e.target.value)}
-      className="animated-search-bar"
-    />
-
-    </h1>
-    
-
-
-    {filteredProperties.map((property) => (
-      <div
-        key={property.id}
-        className="property-card-container"
-        data-aos="fade-down"
-        data-aos-duration="3000"
-      >
-        <img
-          src={property.image}
-          alt={`Property ${property.id} - ${property.address}`}
-          className="PropertyListingImage"
+      <h1 className="PropertyListingDetailsTitle" data-aos="fade-down" data-aos-duration="3000">
+        <input
+          type="text"
+          placeholder="Search Wilmington Properties..."
+          value={searchInput}
+          onChange={(e) => setSearchInput(e.target.value)}
+          className="animated-search-bar"
         />
-        <div className="PropertyListingDetails">
-          <p>{property.price}</p>
-          <p>{property.details}</p>
-          <p className="property-address">{property.address}</p>
-          <Link key={property.id} to={{ pathname: `/properties/${property.id}`, state: { property } }}>
-  <button className="green-button">View!</button>
-</Link>
+      </h1>
+
+      {filteredProperties.map((property) => (
+        <div key={property.id} className="property-card-container" data-aos="fade-down" data-aos-duration="3000">
+          <img
+            src={property.image}
+            alt={`Property ${property.id} - ${property.address}`}
+            className="PropertyListingImage"
+          />
+          <div className="PropertyListingDetails">
+            <p>{property.price}</p>
+            <p>{property.details}</p>
+            <p className="property-address">{property.address}</p>
+            <Link key={property.id} to={`/properties/${property.id}`}>
+              <button className="green-button">View!</button>
+            </Link>
+          </div>
         </div>
-      </div>
-    ))}
-  </div>
+      ))}
+    </div>
   );
 };
 

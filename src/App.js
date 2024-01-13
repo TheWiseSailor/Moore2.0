@@ -1,4 +1,4 @@
-// App.js
+// src/App.js
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./components/Header";
@@ -20,7 +20,6 @@ function App() {
           <Route path="/Moore2.0" element={<HomepageRender />} />
           <Route path="/property/:id" element={<PropertyOfTheDay />} />
           <Route path="/properties" element={<Properties />} />
-
           <Route path="/properties/:id" element={<ViewProperties />} />
           <Route path="/agent/:name" element={<AgentProfile />} />
           <Route path="/contact" element={<ContactFormPage />} />

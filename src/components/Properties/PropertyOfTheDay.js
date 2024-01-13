@@ -1,3 +1,6 @@
+
+
+//propertyoftheday.js
 import React from "react";
 // images are from unsplash.com and freepik.com
 import { useParams } from "react-router-dom";
