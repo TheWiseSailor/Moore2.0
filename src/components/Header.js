@@ -84,7 +84,8 @@ const Header = () => {
 
               </a>
             </li>
-{/* start working on the peroperty renderings and get it to where it shows a similar layout to all the other realestate websites outt here and provitde a simple google maps api... if I can find one */}
+
+            {/* fix the mobile menu and hamburger menu  by making a separate file */}
             <li>
               <a href="#">News</a>
             </li>
