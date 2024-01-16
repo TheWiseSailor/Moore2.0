@@ -9,7 +9,7 @@ import AgentProfile from "./components/Agents/AgentProfile";
 import PropertyOfTheDay from "./components/Properties/PropertyOfTheDay";
 import Properties from "./components/Properties/Properties";
 import ViewProperties from "./components/Properties/ViewProperties";
-import NewsPage from "./components/News"; 
+import NewsPage from "./components/News/News"; 
 
 function App() {
   return (
