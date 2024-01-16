@@ -87,7 +87,7 @@ const Header = () => {
 
             {/* fix the mobile menu and hamburger menu  by making a separate file */}
             <li>
-              <a href="#">News</a>
+              <a href="/news">News</a>
             </li>
             <li>
               <Link to="/contact">Contact</Link>

@@ -9,6 +9,7 @@ import AgentProfile from "./components/Agents/AgentProfile";
 import PropertyOfTheDay from "./components/Properties/PropertyOfTheDay";
 import Properties from "./components/Properties/Properties";
 import ViewProperties from "./components/Properties/ViewProperties";
+import NewsPage from "./components/News"; 
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/properties/:id" element={<ViewProperties />} />
           <Route path="/agent/:name" element={<AgentProfile />} />
           <Route path="/contact" element={<ContactFormPage />} />
+          <Route path="/news" element={<NewsPage />} />
         </Routes>
         <Footer />
       </Router>
