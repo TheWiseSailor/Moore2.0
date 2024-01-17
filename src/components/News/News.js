@@ -13,7 +13,7 @@ const NewsPage = () => {
                 <div className="article-content">
                     <h2 className='news2'>New Developments in Downtown Wilmington</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
-                    <p><a href="#">Read more</a></p>
+               
                 </div>
             </section>
 
@@ -22,7 +22,7 @@ const NewsPage = () => {
                 <div className="article-content">
                     <h2 className='news2'>Home Prices on the Rise</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
-                    <p><a href="#">Read more</a></p>
+                 
                 </div>
             </section>
 
@@ -31,7 +31,7 @@ const NewsPage = () => {
                 <div className="article-content">
                     <h2 className='news2'>Emerging Suburban Communities</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
-                    <p><a href="#">Read more</a></p>
+                
                 </div>
             </section>
 
@@ -40,7 +40,7 @@ const NewsPage = () => {
                 <div className="article-content">
                     <h2 className='news2'>Luxury Real Estate Market Booming</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
-                    <p><a href="#">Read more</a></p>
+             
                 </div>
             </section>
         </div>
