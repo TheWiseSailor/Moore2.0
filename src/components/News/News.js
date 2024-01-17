@@ -15,7 +15,7 @@ const NewsPage = () => {
                 <img src={Img1} alt="Downtown Development" className="article-image" />
                 <div className="article-content">
                     <h2 className='news2'>New Developments in Downtown Wilmington</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
+                    <p className='p1'>Downtown Wilmington sees a resurgence with new developments, bringing modern architecture and cultural spaces to contribute to the city's urban vibrancy.</p>
                
                 </div>
             </section>
@@ -24,7 +24,7 @@ const NewsPage = () => {
                 <img src={Img2} alt="Rising Home Prices" className="article-image" />
                 <div className="article-content">
                     <h2 className='news2'>Home Prices on the Rise</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
+                    <p className='p1'>Home prices in Wilmington, North Carolina, are on the rise, reflecting the increasing demand for housing in the region.</p>
                  
                 </div>
             </section>
@@ -33,7 +33,8 @@ const NewsPage = () => {
                 <img src={Img3} alt="New Suburban Communities" className="article-image" />
                 <div className="article-content">
                     <h2 className='news2'>Emerging Suburban Communities</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
+                    <p className='p1'>Emerging suburban communities in Wilmington, North Carolina, are experiencing notable growth and transformation in 2023. 
+</p>
                 
                 </div>
             </section>
@@ -42,7 +43,7 @@ const NewsPage = () => {
                 <img src={Img4} alt="Luxury Real Estate Market" className="article-image" />
                 <div className="article-content">
                     <h2 className='news2'>Luxury Real Estate Market Booming</h2>
-                    <p>Wilmington's luxury real estate market is currently booming, witnessing a surge in demand and heightened interest in high-end properties. The city's upscale housing sector is experiencing a notable upswing, reflecting a robust trend in luxury real estate.</p>
+                    <p className='p1'>Wilmington's luxury real estate market is currently booming, witnessing a surge in demand and heightened interest in high-end properties.</p>
              
                 </div>
             </section>
