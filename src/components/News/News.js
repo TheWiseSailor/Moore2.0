@@ -42,7 +42,7 @@ const NewsPage = () => {
                 <img src={Img4} alt="Luxury Real Estate Market" className="article-image" />
                 <div className="article-content">
                     <h2 className='news2'>Luxury Real Estate Market Booming</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt justo eu mauris faucibus, a congue libero auctor.</p>
+                    <p>Wilmington's luxury real estate market is currently booming, witnessing a surge in demand and heightened interest in high-end properties. The city's upscale housing sector is experiencing a notable upswing, reflecting a robust trend in luxury real estate.</p>
              
                 </div>
             </section>

@@ -88,9 +88,10 @@ a:hover {
    margin-bottom: 50px;
   }
   .article-content {
-    margin-right: 360px;
+    margin-right: 350px;
     margin-top:30px ;
     font-size: 20px;
+    max-width: 600px;
     
    }
 }
