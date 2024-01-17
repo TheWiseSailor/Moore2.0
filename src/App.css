@@ -595,15 +595,21 @@ textarea {
   }
 }
 /* Footer.css */
+.FooterText{
+  color: white;
 
+  font-size: 20px;
+font-weight: bold;
+}
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+
   flex-wrap: wrap;
+ 
   background-color: #919191;
-  color: white;
+
 }
 
 @media (max-width: 768px) {
