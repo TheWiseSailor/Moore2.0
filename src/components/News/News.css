@@ -20,16 +20,19 @@ section.article {
   margin-bottom: 10px;
   overflow: hidden;
   margin: 0 auto; 
+  text-align: center;
 }
 
 .article-image {
-  width: 100%; 
-  height: auto;
+  width: 100%;
+  max-width: 400px;
+  height: 200px;
+  max-height: 300px;
   border-radius: 8px;
-  margin-bottom: 10px; 
-  text-align: center !important;
+  margin-bottom: 10px;
+  text-align: center;
+  
 }
-
 .article-content {
   overflow: hidden;
   text-align: center;
