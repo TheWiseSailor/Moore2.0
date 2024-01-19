@@ -22,9 +22,11 @@ import Listing3Image3 from "./PropertyOfTheDayImages/Listing3/Listing3Image3.jpg
 import Listing3Image4 from "./PropertyOfTheDayImages/Listing3/Listing3Image4.jpg";
 import Listing3Image5 from "./PropertyOfTheDayImages/Listing3/Listing3Image5.jpg";
 //listing4 end
-import Listing4Image1 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+import Listing4Image1 from "./PropertyHomepageImages/Listing4.png";
 import Listing4Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing4Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+import Listing4Image4 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+import Listing4Image5 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import "./PropertyOfTheDay.css";
 
 const PropertyOfTheDay = () => {
