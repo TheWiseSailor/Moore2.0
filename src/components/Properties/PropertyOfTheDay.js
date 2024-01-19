@@ -10,12 +10,16 @@ import Listing1Image1 from "./PropertyOfTheDayImages/Listing1/Listing1.png";
 import Listing1Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image2.jpg";
 import Listing1Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing1Image4 from "./PropertyOfTheDayImages/Listing1/Listing1Image4.jpg";
-import Listing2Image1 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing2Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing2Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+//listing1 end
+import Listing2Image1 from "./PropertyHomepageImages/Listing2.png";
+import Listing2Image2 from "./PropertyOfTheDayImages/Listing2/Listing2Image1.jpg";
+import Listing2Image3 from "./PropertyOfTheDayImages/Listing2/Listing2Image2.jpg";
+import Listing2Image4 from "./PropertyOfTheDayImages/Listing2/Listing2Image3.jpg";
+//listing2 end
 import Listing3Image1 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing3Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing3Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+//listing4 end
 import Listing4Image1 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing4Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing4Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
@@ -35,7 +39,7 @@ const PropertyOfTheDay = () => {
     },
     {
       id: 2,
-      images: [Listing2Image1, Listing2Image2, Listing2Image3],
+      images: [Listing2Image1, Listing2Image2, Listing2Image3, Listing2Image4],
       price: "$700,000 / $7-14k Month",
       details: "2 beds / 3 baths / 2000 sqft",
       address: "Charleston, SC",
