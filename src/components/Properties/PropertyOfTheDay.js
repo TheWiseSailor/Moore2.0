@@ -16,9 +16,11 @@ import Listing2Image2 from "./PropertyOfTheDayImages/Listing2/Listing2Image1.jpg
 import Listing2Image3 from "./PropertyOfTheDayImages/Listing2/Listing2Image2.jpg";
 import Listing2Image4 from "./PropertyOfTheDayImages/Listing2/Listing2Image3.jpg";
 //listing2 end
-import Listing3Image1 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing3Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing3Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+import Listing3Image1 from "./PropertyHomepageImages/Listing3.png";
+import Listing3Image2 from "./PropertyOfTheDayImages/Listing3/Listing3Image2.jpg";
+import Listing3Image3 from "./PropertyOfTheDayImages/Listing3/Listing3Image3.jpg";
+import Listing3Image4 from "./PropertyOfTheDayImages/Listing3/Listing3Image4.jpg";
+import Listing3Image5 from "./PropertyOfTheDayImages/Listing3/Listing3Image5.jpg";
 //listing4 end
 import Listing4Image1 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
 import Listing4Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
@@ -50,7 +52,7 @@ const PropertyOfTheDay = () => {
     // then start working on the peroperties page
     {
       id: 3,
-      images: [Listing3Image1, Listing3Image2, Listing3Image3],
+      images: [Listing3Image1, Listing3Image2, Listing3Image3,Listing3Image4, Listing3Image5],
       price: "$600,000 / $6-12k Month",
       details: "3 beds / 2.5 baths / 1800 sqft",
       address: "Wilmington, NC",
