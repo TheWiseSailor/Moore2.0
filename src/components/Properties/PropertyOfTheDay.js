@@ -23,10 +23,10 @@ import Listing3Image4 from "./PropertyOfTheDayImages/Listing3/Listing3Image4.jpg
 import Listing3Image5 from "./PropertyOfTheDayImages/Listing3/Listing3Image5.jpg";
 //listing4 end
 import Listing4Image1 from "./PropertyHomepageImages/Listing4.png";
-import Listing4Image2 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing4Image3 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing4Image4 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
-import Listing4Image5 from "./PropertyOfTheDayImages/Listing1/Listing1Image3.jpg";
+import Listing4Image2 from "./PropertyOfTheDayImages/Listing4/Listing4Image2.jpg";
+import Listing4Image3 from "./PropertyOfTheDayImages/Listing4/Listing4Image3.jpg";
+import Listing4Image4 from "./PropertyOfTheDayImages/Listing4/Listing4Image4.jpg";
+import Listing4Image5 from "./PropertyOfTheDayImages/Listing4/Listing4Image5.jpg";
 import "./PropertyOfTheDay.css";
 
 const PropertyOfTheDay = () => {
@@ -62,7 +62,7 @@ const PropertyOfTheDay = () => {
     },
     {
       id: 4,
-      images: [Listing4Image1, Listing4Image2, Listing4Image3],
+      images: [Listing4Image1, Listing4Image2, Listing4Image3, Listing4Image4, Listing4Image5],
       price: "$800,000 / $8-16k Month",
       details: "5 beds / 4 baths / 2500 sqft",
       address: "Wrightsville, NC",
