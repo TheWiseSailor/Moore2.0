@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap");
+
 
 @import "tailwindcss/utilities";
 
@@ -128,8 +128,13 @@ header {
 .hamburger-menu {
   background-color: transparent;
   height: 50px;
+display: block;
 }
-
+@media (min-width: 769px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
 header ul {
   list-style-type: none;
 }

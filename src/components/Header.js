@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import AOSInitializer from "./AOS/AOSInitializer";
-import $ from "jquery";
 import hamburgerImage from "./images/modern.png";
 
 const Header = () => {
@@ -9,49 +8,36 @@ const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleNavToggle = () => {
-      $("#nav-menu").toggleClass("open");
-      setIsMobileMenuOpen(!isMobileMenuOpen);
-    };
-
-    $("#nav-toggle").click(handleNavToggle);
-
-    $("#close-flyout").click(() => {
-      $("#nav-menu").removeClass("open");
-      setIsMobileMenuOpen(false);
-    });
-
-    $("#nav-menu a").click(() => {
-      $("#nav-menu").removeClass("open");
-      setIsMobileMenuOpen(false);
-    });
-
     const handleWindowResize = () => {
       if (window.innerWidth >= 769) {
-        $(".hamburger-menu").hide();
-      } else {
-        $(".hamburger-menu").show();
+        setIsMobileMenuOpen(false);
       }
     };
 
     const handleScroll = () => {
-      const scrollPosition =
-        window.scrollY || document.documentElement.scrollTop;
+      const scrollPosition = window.scrollY || document.documentElement.scrollTop;
       setIsScrolled(scrollPosition > 0);
     };
 
     handleWindowResize();
     handleScroll();
 
-    $(window).resize(handleWindowResize);
-    $(window).scroll(handleScroll);
+    window.addEventListener("resize", handleWindowResize);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      $(window).off("resize", handleWindowResize);
-      $(window).off("scroll", handleScroll);
-      $("#nav-toggle").off("click", handleNavToggle);
+      window.removeEventListener("resize", handleWindowResize);
+      window.removeEventListener("scroll", handleScroll);
     };
-  }, [isMobileMenuOpen]);
+  }, []);
+
+  const handleNavToggle = () => {
+    setIsMobileMenuOpen(prevState => !prevState);
+  };
+
+  const closeMenu = () => {
+    setIsMobileMenuOpen(false);
+  };
 
   return (
     <header className={isScrolled ? "sticky-header" : ""}>
@@ -61,36 +47,23 @@ const Header = () => {
           Moore Real Estate.
         </Link>
         <nav>
-          <button id="nav-toggle" className="hamburger-menu">
+          <button id="nav-toggle" className="hamburger-menu" onClick={handleNavToggle}>
             <img src={hamburgerImage} alt="Hamburger Menu" />
             <span className="strip"></span>
             <span className="strip"></span>
             <span className="strip"></span>
           </button>
-          <AOSInitializer />
-          <ul id="nav-menu" data-aos="fade-down" data-aos-duration="3000">
+          <ul id="nav-menu" className={isMobileMenuOpen ? "open" : ""} data-aos="fade-down" data-aos-duration="3000">
             <li>
-
-
-              <a
-               
-                target="_blank"
-                data-aos="fade-down"
-                data-aos-duration="1000"
-              >
-
-  <Link to="/properties">Properties</Link>
-
-
-              </a>
-            </li>
-<li>
-            <Link to="/news">News</Link>
+              <Link to="/properties" onClick={closeMenu}>Properties</Link>
             </li>
             <li>
-              <Link to="/contact">Contact</Link>
+              <Link to="/news" onClick={closeMenu}>News</Link>
             </li>
-            <li id="close-flyout">
+            <li>
+              <Link to="/contact" onClick={closeMenu}>Contact</Link>
+            </li>
+            <li id="close-flyout" onClick={closeMenu}>
               <span className="fas fa-times"></span>
             </li>
           </ul>
